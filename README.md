@@ -20,6 +20,12 @@ git clone https://github.com/claytonpiccinin/soc-interview && cd soc-interview
 
 Let's start thinking about the problem. We suffered an attack 😧, and we're trying to understand step by step what happened.
 Your goal here, is to help us to understand 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 As [John Gruber] writes on the [Markdown site][df1]
 
 > The overriding design goal for Markdown's
