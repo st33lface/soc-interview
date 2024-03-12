@@ -20,6 +20,11 @@ git clone https://github.com/claytonpiccinin/soc-interview && cd soc-interview
 
 Let's start thinking about the problem. We suffered an attack 😧, and we're trying to understand step by step what happened.
 Your goal here, is to help us to understand 
+
+
+```sh
+To our employees: We can use the following example to create our own README. After it, we need to remove the text below.
+```
 As [John Gruber] writes on the [Markdown site][df1]
 
 > The overriding design goal for Markdown's
