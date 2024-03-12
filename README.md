@@ -1,7 +1,7 @@
 # Security Operation Control Interview - CRDC
 ##### Your goal will be to protect our company while we empower our customers.
 &nbsp;
-[![N|CRDC](https://plataforma.crdc.com.br:8443/resources/login/images/logo-rodape.png)](https://crdc.com.br/)
+![CRDC](/images/logo-rodape.png "CRDC - Central de Registro de Direitos Creditórios")
 
 ## About the test
 
@@ -20,12 +20,6 @@ git clone https://github.com/claytonpiccinin/soc-interview && cd soc-interview
 
 Let's start thinking about the problem. We suffered an attack 😧, and we're trying to understand step by step what happened.
 Your goal here, is to help us to understand 
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
 As [John Gruber] writes on the [Markdown site][df1]
 
 > The overriding design goal for Markdown's
