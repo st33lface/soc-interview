@@ -44,6 +44,7 @@ git clone https://github.com/claytonpiccinin/soc-interview && cd soc-interview
 Let's start thinking about the problem. We suffered an attack 😧, and we're trying to understand step by step what happened.
 Your goal here, is to help us to understand. 
 
+```sh
 Read carefully and analyze these events: 
 
 A - Open the Archive1 json file and analyze.
@@ -58,12 +59,7 @@ B - Open the Archive2 json file and analyze:
  1 - Find the user involved in this event.
  2 - Find all IP's and write about there are. 
  3 - What could a hacker do inside this network?
- 4 - What you think about this event behavior? What could have happened here? It's True or False?
-
-
-```sh
-To our employees: We can use the following example to create our own README. After it, we need to remove the text below.
-```
+ 4 - What you think about this event behavior? What could have happened here? It's True or False?```
 
 As [John Gruber] writes on the [Markdown site][df1]
 
