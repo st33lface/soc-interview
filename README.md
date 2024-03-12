@@ -32,6 +32,7 @@ winget install github.cli
 ```sh
 gh auth login
 ```
+<<<<<<< HEAD
 select github.com and hit enter 
 ```sh
 What account do you want to log into? GitHub.com
@@ -56,6 +57,8 @@ select Login with a web browser and login to your account
 ```sh
 How would you like to authenticate GitHub CLI? Login with a web browser
 ```
+=======
+>>>>>>> 2053b8b4af81400de80b7d0a14b763529e9ce59e
 
 - Clone the following repository
 
