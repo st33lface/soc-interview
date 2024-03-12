@@ -1,0 +1,332 @@
+{
+  "_index": ".ds-logs-microsoft_defender_endpoint.log-seginf-2024.03.06-000019",
+  "_id": "Em9mGo4BOs0_BY4qkkZO",
+  "_version": 1,
+  "_score": 0,
+  "_source": {
+    "agent": {
+      "name": "seginf-prd-elkfleet.localdomain",
+      "id": "2e274ac4-a454-4e38-93fc-55b32608b0b0",
+      "ephemeral_id": "ac8106ba-8059-4537-8f97-6a374ed46151",
+      "type": "filebeat",
+      "version": "8.11.1"
+    },
+    "elastic_agent": {
+      "id": "2e274ac4-a454-4e38-93fc-55b32608b0b0",
+      "version": "8.11.1",
+      "snapshot": false
+    },
+    "rule": {
+      "description": "Potentially unwanted software is a category of applications that install and perform undesirable activity without adequate user consent. These applications are not necessarily malicious, but their behaviors often negatively impact the computing experience, even appearing to invade user privacy. Many of these applications display advertising, modify browser settings, and install bundled software."
+    },
+    "message": "'PassShow' unwanted software was prevented",
+    "microsoft": {
+      "defender_endpoint": {
+        "evidence": {
+          "detectionStatus": "Prevented",
+          "entityType": "File",
+          "evidenceCreationTime": "2024-03-07T19:30:25.75Z"
+        },
+        "threatFamilyName": "PassShow",
+        "mitreTechniques": [
+          "T1003",
+          "T1057"
+        ],
+        "detectorId": "910e98ad-0eb4-480b-8aa6-841e9ecad15e",
+        "investigationId": "81",
+        "domains": [],
+        "investigationState": "PendingResource",
+        "threatName": "PUA:Win32/PassShow",
+        "incidentId": "176",
+        "lastUpdateTime": "2024-03-07T19:30:26.37Z",
+        "loggedOnUsers": [
+          {
+            "accountName": "ViniciusValerio",
+            "domainName": "AzureAD"
+          }
+        ],
+        "status": "New"
+      }
+    },
+    "tags": [
+      "microsoft-defender-endpoint",
+      "forwarded"
+    ],
+    "cloud": {
+      "instance": {
+        "id": "b830eb3688265edf1ebad4a4672c2ba832ed6f80"
+      },
+      "provider": "azure",
+      "account": {
+        "id": "d2f9dc93-f9b6-49c2-a65b-3537004ff31a"
+      }
+    },
+    "input": {
+      "type": "httpjson"
+    },
+    "observer": {
+      "product": "Defender for Endpoint",
+      "vendor": "Microsoft",
+      "name": "WindowsDefenderAv"
+    },
+    "@timestamp": "2024-03-07T19:31:52.007Z",
+    "file": {
+      "path": "C:\\Users\\ViniciusValerio\\Desktop\\atomic-red-team-master\\atomic-red-team-master\\atomics\\T1555.003\\bin",
+      "name": "WebBrowserPassView.exe",
+      "hash": {
+        "sha1": "73f8e5c17b49b9f2703fed59cc2be77239e904f7",
+        "sha256": "c41216eee9756a1dcc546df4fe97defc05513eed64ce6ac05f1501b50e6f96cc"
+      }
+    },
+    "ecs": {
+      "version": "8.11.0"
+    },
+    "related": {
+      "hosts": [
+        "crdcnb121"
+      ],
+      "hash": [
+        "73f8e5c17b49b9f2703fed59cc2be77239e904f7",
+        "c41216eee9756a1dcc546df4fe97defc05513eed64ce6ac05f1501b50e6f96cc"
+      ]
+    },
+    "data_stream": {
+      "namespace": "seginf",
+      "type": "logs",
+      "dataset": "microsoft_defender_endpoint.log"
+    },
+    "host": {
+      "hostname": "crdcnb121",
+      "name": "crdcnb121"
+    },
+    "threat": {
+      "framework": "MITRE ATT&CK",
+      "technique": {
+        "name": [
+          "DefenseEvasion"
+        ]
+      }
+    },
+    "event": {
+      "severity": 1,
+      "created": "2024-03-07T19:30:25.7333333Z",
+      "kind": "alert",
+      "timezone": "UTC",
+      "start": "2024-03-07T19:29:02.0917168Z",
+      "type": [
+        "start"
+      ],
+      "duration": 0,
+      "agent_id_status": "verified",
+      "ingested": "2024-03-07T19:31:53Z",
+      "provider": "defender_endpoint",
+      "action": "DefenseEvasion",
+      "end": "2024-03-07T19:29:02.0917168Z",
+      "id": "daa6e9a199-617a-41fa-8cf5-8a320027a80d_1",
+      "category": [
+        "host"
+      ],
+      "dataset": "microsoft_defender_endpoint.log"
+    }
+  },
+  "fields": {
+    "file.path": [
+      "C:\\Users\\ViniciusValerio\\Desktop\\atomic-red-team-master\\atomic-red-team-master\\atomics\\T1555.003\\bin"
+    ],
+    "elastic_agent.version": [
+      "8.11.1"
+    ],
+    "event.category": [
+      "host"
+    ],
+    "related.hash": [
+      "73f8e5c17b49b9f2703fed59cc2be77239e904f7",
+      "c41216eee9756a1dcc546df4fe97defc05513eed64ce6ac05f1501b50e6f96cc"
+    ],
+    "host.hostname": [
+      "crdcnb121"
+    ],
+    "observer.vendor": [
+      "Microsoft"
+    ],
+    "threat.technique.name.text": [
+      "DefenseEvasion"
+    ],
+    "microsoft.defender_endpoint.incidentId": [
+      "176"
+    ],
+    "agent.name": [
+      "seginf-prd-elkfleet.localdomain"
+    ],
+    "host.name": [
+      "crdcnb121"
+    ],
+    "event.agent_id_status": [
+      "verified"
+    ],
+    "event.kind": [
+      "alert"
+    ],
+    "microsoft.defender_endpoint.threatName": [
+      "PUA:Win32/PassShow"
+    ],
+    "microsoft.defender_endpoint.status": [
+      "New"
+    ],
+    "event.severity": [
+      1
+    ],
+    "file.path.text": [
+      "C:\\Users\\ViniciusValerio\\Desktop\\atomic-red-team-master\\atomic-red-team-master\\atomics\\T1555.003\\bin"
+    ],
+    "microsoft.defender_endpoint.loggedOnUsers.domainName": [
+      "AzureAD"
+    ],
+    "microsoft.defender_endpoint.threatFamilyName": [
+      "PassShow"
+    ],
+    "input.type": [
+      "httpjson"
+    ],
+    "rule.description": [
+      "Potentially unwanted software is a category of applications that install and perform undesirable activity without adequate user consent. These applications are not necessarily malicious, but their behaviors often negatively impact the computing experience, even appearing to invade user privacy. Many of these applications display advertising, modify browser settings, and install bundled software."
+    ],
+    "microsoft.defender_endpoint.evidence.detectionStatus": [
+      "Prevented"
+    ],
+    "data_stream.type": [
+      "logs"
+    ],
+    "tags": [
+      "microsoft-defender-endpoint",
+      "forwarded"
+    ],
+    "cloud.provider": [
+      "azure"
+    ],
+    "event.provider": [
+      "defender_endpoint"
+    ],
+    "agent.id": [
+      "2e274ac4-a454-4e38-93fc-55b32608b0b0"
+    ],
+    "ecs.version": [
+      "8.11.0"
+    ],
+    "event.created": [
+      "2024-03-07T19:30:25.733Z"
+    ],
+    "agent.version": [
+      "8.11.1"
+    ],
+    "related.hosts": [
+      "crdcnb121"
+    ],
+    "event.start": [
+      "2024-03-07T19:29:02.091Z"
+    ],
+    "threat.technique.name": [
+      "DefenseEvasion"
+    ],
+    "microsoft.defender_endpoint.investigationId": [
+      "81"
+    ],
+    "microsoft.defender_endpoint.evidence.entityType": [
+      "File"
+    ],
+    "observer.name": [
+      "WindowsDefenderAv"
+    ],
+    "microsoft.defender_endpoint.detectorId": [
+      "910e98ad-0eb4-480b-8aa6-841e9ecad15e"
+    ],
+    "event.end": [
+      "2024-03-07T19:29:02.091Z"
+    ],
+    "threat.framework": [
+      "MITRE ATT&CK"
+    ],
+    "file.hash.sha1": [
+      "73f8e5c17b49b9f2703fed59cc2be77239e904f7"
+    ],
+    "cloud.instance.id": [
+      "b830eb3688265edf1ebad4a4672c2ba832ed6f80"
+    ],
+    "agent.type": [
+      "filebeat"
+    ],
+    "event.module": [
+      "microsoft_defender_endpoint"
+    ],
+    "file.hash.sha256": [
+      "c41216eee9756a1dcc546df4fe97defc05513eed64ce6ac05f1501b50e6f96cc"
+    ],
+    "microsoft.defender_endpoint.evidence.evidenceCreationTime": [
+      "2024-03-07T19:30:25.75Z"
+    ],
+    "observer.product": [
+      "Defender for Endpoint"
+    ],
+    "elastic_agent.snapshot": [
+      false
+    ],
+    "microsoft.defender_endpoint.investigationState": [
+      "PendingResource"
+    ],
+    "event.timezone": [
+      "UTC"
+    ],
+    "elastic_agent.id": [
+      "2e274ac4-a454-4e38-93fc-55b32608b0b0"
+    ],
+    "data_stream.namespace": [
+      "seginf"
+    ],
+    "file.name": [
+      "WebBrowserPassView.exe"
+    ],
+    "microsoft.defender_endpoint.lastUpdateTime": [
+      "2024-03-07T19:30:26.370Z"
+    ],
+    "message": [
+      "'PassShow' unwanted software was prevented"
+    ],
+    "microsoft.defender_endpoint.loggedOnUsers.accountName": [
+      "ViniciusValerio"
+    ],
+    "event.duration": [
+      0
+    ],
+    "event.action": [
+      "DefenseEvasion"
+    ],
+    "event.ingested": [
+      "2024-03-07T19:31:53.000Z"
+    ],
+    "@timestamp": [
+      "2024-03-07T19:31:52.007Z"
+    ],
+    "cloud.account.id": [
+      "d2f9dc93-f9b6-49c2-a65b-3537004ff31a"
+    ],
+    "microsoft.defender_endpoint.mitreTechniques": [
+      "T1003",
+      "T1057"
+    ],
+    "data_stream.dataset": [
+      "microsoft_defender_endpoint.log"
+    ],
+    "event.type": [
+      "start"
+    ],
+    "agent.ephemeral_id": [
+      "ac8106ba-8059-4537-8f97-6a374ed46151"
+    ],
+    "event.id": [
+      "daa6e9a199-617a-41fa-8cf5-8a320027a80d_1"
+    ],
+    "event.dataset": [
+      "microsoft_defender_endpoint.log"
+    ]
+  }
+}

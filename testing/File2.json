@@ -1,0 +1,390 @@
+{
+  "_index": ".ds-logs-sonicwall_firewall.log-seginf-2024.03.09-000018",
+  "_id": "bnTnM44BOs0_BY4qORsw",
+  "_version": 1,
+  "_score": 0,
+  "_source": {
+    "agent": {
+      "name": "seginf-prd-elkfleet.localdomain",
+      "id": "2e274ac4-a454-4e38-93fc-55b32608b0b0",
+      "type": "filebeat",
+      "ephemeral_id": "f9b66dd6-8766-4b38-a74d-8c54156c0048",
+      "version": "8.11.1"
+    },
+    "log": {
+      "level": "info",
+      "source": {
+        "address": "200.170.138.149:514"
+      },
+      "syslog": {
+        "priority": 134
+      }
+    },
+    "elastic_agent": {
+      "id": "2e274ac4-a454-4e38-93fc-55b32608b0b0",
+      "version": "8.11.1",
+      "snapshot": false
+    },
+    "destination": {
+      "geo": {
+        "region_iso_code": "BR-SP",
+        "continent_name": "South America",
+        "city_name": "São Paulo",
+        "country_iso_code": "BR",
+        "country_name": "Brazil",
+        "region_name": "Sao Paulo",
+        "location": {
+          "lon": -46.6409,
+          "lat": -23.6283
+        }
+      },
+      "ip": "189.57.104.170"
+    },
+    "source": {
+      "geo": {
+        "region_iso_code": "BR-PE",
+        "continent_name": "South America",
+        "city_name": "Recife",
+        "country_iso_code": "BR",
+        "country_name": "Brazil",
+        "region_name": "Pernambuco",
+        "location": {
+          "lon": -34.9498,
+          "lat": -8.0091
+        }
+      },
+      "ip": "168.196.40.82"
+    },
+    "message": "SSL VPN zone remote user login allowed (User: andre.oliveira@crdc.com.br)",
+    "tags": [
+      "sonicwall-firewall",
+      "forwarded"
+    ],
+    "cloud": {
+      "image": {
+        "id": "ami-0f34c5ae932e6f0e4"
+      },
+      "availability_zone": "us-east-1d",
+      "instance": {
+        "id": "i-09886d0aedfeda43e"
+      },
+      "provider": "aws",
+      "service": {
+        "name": "EC2"
+      },
+      "machine": {
+        "type": "t3.medium"
+      },
+      "region": "us-east-1",
+      "account": {
+        "id": "531326087471"
+      }
+    },
+    "input": {
+      "type": "udp"
+    },
+    "observer": {
+      "ingress": {
+        "interface": {
+          "name": "X2"
+        }
+      },
+      "product": "SonicOS",
+      "vendor": "SonicWall",
+      "ip": [
+        "200.170.138.149"
+      ],
+      "name": "firewall",
+      "serial_number": "18C241645050",
+      "type": "firewall",
+      "egress": {
+        "interface": {
+          "name": "X1"
+        }
+      }
+    },
+    "@timestamp": "2024-03-12T18:22:54.000Z",
+    "sonicwall": {
+      "firewall": {
+        "sess": "sslvpnc",
+        "event_group_category": "Security Services",
+        "gcat": "4"
+      }
+    },
+    "ecs": {
+      "version": "8.11.0"
+    },
+    "related": {
+      "ip": [
+        "168.196.40.82",
+        "189.57.104.170",
+        "200.170.138.149"
+      ],
+      "user": [
+        "andre.oliveira@crdc.com.br"
+      ]
+    },
+    "data_stream": {
+      "namespace": "seginf",
+      "type": "logs",
+      "dataset": "sonicwall_firewall.log"
+    },
+    "event": {
+      "severity": 6,
+      "code": "1080",
+      "timezone": "-03:00",
+      "kind": "event",
+      "type": [
+        "start",
+        "info"
+      ],
+      "duration": 0,
+      "agent_id_status": "verified",
+      "sequence": 200,
+      "ingested": "2024-03-12T18:22:55Z",
+      "action": "login-success",
+      "category": [
+        "authentication"
+      ],
+      "dataset": "sonicwall_firewall.log",
+      "outcome": "success"
+    },
+    "user": {
+      "name": "andre.oliveira@crdc.com.br"
+    }
+  },
+  "fields": {
+    "elastic_agent.version": [
+      "8.11.1"
+    ],
+    "event.category": [
+      "authentication"
+    ],
+    "observer.egress.interface.name": [
+      "X1"
+    ],
+    "observer.ingress.interface.name": [
+      "X2"
+    ],
+    "cloud.availability_zone": [
+      "us-east-1d"
+    ],
+    "observer.vendor": [
+      "SonicWall"
+    ],
+    "source.geo.region_name": [
+      "Pernambuco"
+    ],
+    "destination.geo.region_name": [
+      "Sao Paulo"
+    ],
+    "log.level": [
+      "info"
+    ],
+    "source.ip": [
+      "168.196.40.82"
+    ],
+    "agent.name": [
+      "seginf-prd-elkfleet.localdomain"
+    ],
+    "event.agent_id_status": [
+      "verified"
+    ],
+    "source.geo.region_iso_code": [
+      "BR-PE"
+    ],
+    "event.kind": [
+      "event"
+    ],
+    "event.outcome": [
+      "success"
+    ],
+    "source.geo.city_name": [
+      "Recife"
+    ],
+    "event.severity": [
+      6
+    ],
+    "sonicwall.firewall.event_group_category": [
+      "Security Services"
+    ],
+    "cloud.region": [
+      "us-east-1"
+    ],
+    "destination.geo.continent_name": [
+      "South America"
+    ],
+    "input.type": [
+      "udp"
+    ],
+    "data_stream.type": [
+      "logs"
+    ],
+    "observer.serial_number": [
+      "18C241645050"
+    ],
+    "related.user": [
+      "andre.oliveira@crdc.com.br"
+    ],
+    "tags": [
+      "sonicwall-firewall",
+      "forwarded"
+    ],
+    "cloud.machine.type": [
+      "t3.medium"
+    ],
+    "cloud.provider": [
+      "aws"
+    ],
+    "destination.geo.city_name": [
+      "São Paulo"
+    ],
+    "event.code": [
+      "1080"
+    ],
+    "agent.id": [
+      "2e274ac4-a454-4e38-93fc-55b32608b0b0"
+    ],
+    "cloud.service.name": [
+      "EC2"
+    ],
+    "ecs.version": [
+      "8.11.0"
+    ],
+    "observer.type": [
+      "firewall"
+    ],
+    "log.source.address": [
+      "200.170.138.149:514"
+    ],
+    "agent.version": [
+      "8.11.1"
+    ],
+    "destination.geo.country_name": [
+      "Brazil"
+    ],
+    "destination.geo.region_iso_code": [
+      "BR-SP"
+    ],
+    "observer.ip": [
+      "200.170.138.149"
+    ],
+    "observer.name": [
+      "firewall"
+    ],
+    "sonicwall.firewall.gcat": [
+      "4"
+    ],
+    "user.name": [
+      "andre.oliveira@crdc.com.br"
+    ],
+    "source.geo.location": [
+      {
+        "coordinates": [
+          -34.9498,
+          -8.0091
+        ],
+        "type": "Point"
+      }
+    ],
+    "destination.geo.location": [
+      {
+        "coordinates": [
+          -46.6409,
+          -23.6283
+        ],
+        "type": "Point"
+      }
+    ],
+    "cloud.instance.id": [
+      "i-09886d0aedfeda43e"
+    ],
+    "event.sequence": [
+      200
+    ],
+    "agent.type": [
+      "filebeat"
+    ],
+    "event.module": [
+      "sonicwall_firewall"
+    ],
+    "related.ip": [
+      "168.196.40.82",
+      "189.57.104.170",
+      "200.170.138.149"
+    ],
+    "source.geo.country_iso_code": [
+      "BR"
+    ],
+    "observer.product": [
+      "SonicOS"
+    ],
+    "elastic_agent.snapshot": [
+      false
+    ],
+    "log.syslog.priority": [
+      134
+    ],
+    "event.timezone": [
+      "-03:00"
+    ],
+    "elastic_agent.id": [
+      "2e274ac4-a454-4e38-93fc-55b32608b0b0"
+    ],
+    "data_stream.namespace": [
+      "seginf"
+    ],
+    "source.geo.continent_name": [
+      "South America"
+    ],
+    "message": [
+      "SSL VPN zone remote user login allowed (User: andre.oliveira@crdc.com.br)"
+    ],
+    "destination.ip": [
+      "189.57.104.170"
+    ],
+    "cloud.image.id": [
+      "ami-0f34c5ae932e6f0e4"
+    ],
+    "event.duration": [
+      0
+    ],
+    "event.action": [
+      "login-success"
+    ],
+    "event.ingested": [
+      "2024-03-12T18:22:55.000Z"
+    ],
+    "@timestamp": [
+      "2024-03-12T18:22:54.000Z"
+    ],
+    "cloud.account.id": [
+      "531326087471"
+    ],
+    "destination.geo.country_iso_code": [
+      "BR"
+    ],
+    "data_stream.dataset": [
+      "sonicwall_firewall.log"
+    ],
+    "event.type": [
+      "start",
+      "info"
+    ],
+    "agent.ephemeral_id": [
+      "f9b66dd6-8766-4b38-a74d-8c54156c0048"
+    ],
+    "sonicwall.firewall.sess": [
+      "sslvpnc"
+    ],
+    "source.geo.country_name": [
+      "Brazil"
+    ],
+    "event.dataset": [
+      "sonicwall_firewall.log"
+    ],
+    "user.name.text": [
+      "andre.oliveira@crdc.com.br"
+    ]
+  }
+}
