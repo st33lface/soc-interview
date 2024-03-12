@@ -11,7 +11,7 @@
 - Anytime you want, take a deep breath and drink a couple of sips of water
 - At the end of the test, you must commit your changes and push it to our repository.
 
-# Requirements
+# Requirementss
 - Install Git and Github CLI
 
 Linux (Ubuntu based)
