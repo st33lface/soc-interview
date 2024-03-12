@@ -2,7 +2,7 @@
 ##### Your goal will be to protect our company while we empower our customers.
 &nbsp;
 ![CRDC](/images/logo-rodape.png "CRDC - Central de Registro de Direitos Creditórios")
-
+##AlteracaoTeste
 ## About the test
 
 - First of all, remember that you can use any technology to help you solve the problems. We're here just to challenge you to think.
