@@ -42,7 +42,23 @@ git clone https://github.com/claytonpiccinin/soc-interview && cd soc-interview
 # Challenge 
 
 Let's start thinking about the problem. We suffered an attack 😧, and we're trying to understand step by step what happened.
-Your goal here, is to help us to understand 
+Your goal here, is to help us to understand. 
+
+Read carefully and analyze these events: 
+
+A - Open the Archive1 json file and analyze.
+ 1 - Find the malicous sample family.
+ 2 - Find the hostname.
+ 3 - Find the username.
+ 4 - Find the date (mm/dd/year).
+ 5 - What should you do to perform eradication?.
+ 6 - What you think about this event behavior? ? It's True or False?.
+
+B - Open the Archive2 json file and analyze:
+ 1 - Find the user involved in this event.
+ 2 - Find all IP's and write about there are. 
+ 3 - What could a hacker do inside this network?
+ 4 - What you think about this event behavior? What could have happened here? It's True or False?
 
 
 ```sh
