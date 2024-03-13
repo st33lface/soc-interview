@@ -4,7 +4,7 @@
 ![CRDC](/images/logo-rodape.png "CRDC - Central de Registro de Direitos Creditórios")
 
 ## About the test 
-##teste
+
 
 - First of all, remember that you can use any technology to help you solve the problems. We're here just to challenge you to think.
 - Don't be afraid of finishing the test on time. Take care to explain your mindset and ask us anytime you want. 
@@ -33,33 +33,6 @@ winget install github.cli
 ```sh
 gh auth login
 ```
-<<<<<<< HEAD
-select github.com and hit enter 
-```sh
-What account do you want to log into? GitHub.com
-```
-select SSH and hit enter 
-```sh
-What is your preferred protocol for Git operations on this host? SSH
-```
-hit enter
-```sh
-Generate a new SSH key to add to your GitHub account? Yes
-```
-hit enter
-```sh
-Enter a passphrase for your new SSH key (Optional)
-```
-hit enter
-```sh
-Title for your SSH key: GitHub CLI
-```
-select Login with a web browser and login to your account 
-```sh
-How would you like to authenticate GitHub CLI? Login with a web browser
-```
-=======
->>>>>>> 2053b8b4af81400de80b7d0a14b763529e9ce59e
 
 - Clone the following repository
 
