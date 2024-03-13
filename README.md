@@ -95,4 +95,4 @@ C - Incident Response
     3 - What do you understand by CSIRT (Computer Security Incident Response Team)?
     4 - Which are the differeces between personal data and sensitive data?
 ```
-GOOD LUCKY :) 
+GOOD LUCKY :)
