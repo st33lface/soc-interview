@@ -12,9 +12,10 @@
 - Anytime you want, take a deep breath and drink a couple of sips of water
 - At the end of the test, you must commit your changes and push it to our repository.
 
+ 
 # Requirements
 - Install Git and Github CLI
-
+ 
 Linux (Ubuntu based)
 ```sh
 sudo apt update && sudo apt install git
@@ -32,6 +33,30 @@ winget install github.cli
 - Configure Github CLI to be able to clone our repository
 ```sh
 gh auth login
+```
+select github.com and hit enter 
+```sh
+What account do you want to log into? GitHub.com
+```
+select SSH and hit enter 
+```sh
+What is your preferred protocol for Git operations on this host? SSH
+```
+hit enter
+```sh
+Generate a new SSH key to add to your GitHub account? Yes
+```
+hit enter
+```sh
+Enter a passphrase for your new SSH key (Optional)
+```
+hit enter
+```sh
+Title for your SSH key: GitHub CLI
+```
+select Login with a web browser and login to your account 
+```sh
+How would you like to authenticate GitHub CLI? Login with a web browser
 ```
 
 - Clone the following repository
