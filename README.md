@@ -54,16 +54,16 @@ A - Open the Archive1 json file and analyze:
  3 - Find the username.
  4 - Find the date (mm/dd/year).
  5 - What should you do to perform eradication?.
- 6 - What you think about this event behavior? It's True or False?.
+ 6 - What you think about this event behavior? It is True or False?.
 ```
 ```sh
 B - Open the Archive2 json file and analyze:
  1 - Find the user involved in this event.
  2 - Find all IPs and write about there are. 
  3 - What could a hacker do inside this network?
- 4 - What you think about this event behavior? What could have happened here? It's True or False?
+ 4 - What you think about this event behavior? What could have happened here? It is True or False?
 ```
- 
+GOOD LUCKY :) 
 
 As [John Gruber] writes on the [Markdown site][df1]
 
