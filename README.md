@@ -80,6 +80,7 @@ A - Open the Archive1 json file and analyze:
  4 - Find the date (mm/dd/year).
  5 - What should you do to perform containment?
  6 - What do you think about this event behavior? Is it True or False?
+ 7 - Which are the file evidence hashes?
 ```
 ```sh
 B - Open the Archive2 json file and analyze:
