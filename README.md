@@ -78,8 +78,8 @@ A - Open the Archive1 json file and analyze:
  2 - Find the hostname.
  3 - Find the username.
  4 - Find the date (mm/dd/year).
- 5 - What should you do to perform eradication?.
- 6 - What you think about this event behavior? It is True or False?.
+ 5 - What should you do to perform eradication?
+ 6 - What you think about this event behavior? It is True or False?
 ```
 ```sh
 B - Open the Archive2 json file and analyze:
