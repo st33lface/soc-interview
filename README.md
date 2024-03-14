@@ -95,10 +95,8 @@ A - Abra o arquivo json Archive1 e analise: Falso - Positivo
  7 - Quais são os hashes de evidências do arquivo?
 • SHA1: 73f8e5c17b49b9f2703fed59cc2be77239e904f7
 • SHA256: c41216eee9756a1dcc546df4fe97defc05513eed64ce6ac05f1501b50e6f96cc
-```
 
 
-```sh
 B - Abra o arquivo json Archive2 e analise: Falso - Falso 
 
 1 - Encontre o usuário envolvido neste evento.
@@ -112,22 +110,17 @@ Ips:     168.196.40.82
          200.170.138.149
 
 
- 3 – O que um hacker poderia fazer dentro desta rede?
- R: O Hacker poderia utilizar o acesso para realizar diversos tipos de ataques cybernéticos, Violar politícas e padrões de segurança, escalar previlêngios até instalar softwares maliciosos que podem comprometer toda a operação.
+3 – O que um hacker poderia fazer dentro desta rede?
+R: O Hacker poderia utilizar o acesso para realizar diversos tipos de ataques cybernéticos, Violar politícas e padrões de segurança, escalar previlêngios até instalar softwares maliciosos que podem comprometer toda a operação.
 
 
- 4 - 4 - O que você acha do comportamento desse evento? O que poderia ter acontecido aqui? Isso e verdadeiro ou falso?
- R: O comportamento do evento parece verdadeiro, pois mostra a detecção de um usuário credenciado porém em outra localidade com alguns ip's divergentes 
- 
-```
+4 - 4 - O que você acha do comportamento desse evento? O que poderia ter acontecido aqui? Isso e verdadeiro ou falso?
+R: O comportamento do evento parece verdadeiro, pois mostra a detecção de um usuário credenciado porém em outra localidade com alguns ip's divergentes 
 
-
-```sh
 C - Resposta a Incidentes
 
 1 - O que você entende por Resposta a Incidentes?
 R:  É o processo que descreve como uma organização deverá lidar com um incidente de segurança seja ele: 
-    
     *  Um ataque Cybernético 
     *  Uma violação de dados 
     *  A presença de um software malicioso como um vírus  
@@ -142,17 +135,14 @@ R:  É o processo que descreve como uma organização deverá lidar com um incid
 
 3 - O que você entende por CSIRT (Computer Security Incident Response Team)?
 R: É uma equipe responsável por lidar com incidentes de segurança cibernética em uma organização. Eles são encarregados de detectar, analisar e responder a ameaças de segurança, além de coordenar a resposta e recuperação após um incidente. 
-     
-     
+          
 4- Quais as diferenças entre dados pessoais e dados sensíveis?
 R: Dados pessoais referem-se a informações que identificam ou podem identificar uma pessoa específica. Isso pode incluir coisas como nome, endereço, número de telefone, endereço de e-mail, número de identificação, etc.
 
 R: Já os dados sensíveis são um subconjunto de dados pessoais que são considerados particularmente sensíveis ou privados.    Isso pode incluir informações como origem étnica ou racial, opiniões políticas, crenças religiosas, saúde física ou mental, informações biométricas, histórico criminal, etc.
 
----
  Em resumo, enquanto dados pessoais identificam uma pessoa, dados sensíveis são informações especialmente confidenciais ou íntimas sobre essa pessoa.
 
-```
 Boa sorte  :)
 Valeu :)
  
