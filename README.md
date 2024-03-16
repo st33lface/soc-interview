@@ -72,28 +72,107 @@ Your goal here, is to help us to understand.
 
 Read carefully and analyze these events: 
 
-```sh
-A - Open the Archive1 json file and analyze:
- 1 - Find the malicious sample family.
- 2 - Find the hostname.
- 3 - Find the username.
- 4 - Find the date (mm/dd/year).
- 5 - What should you do to perform containment?
- 6 - What do you think about this event behavior? Is it True or False?
- 7 - Which are the file evidence hashes?
-```
-```sh
-B - Open the Archive2 json file and analyze:
- 1 - Find the user involved in this event.
- 2 - Find all IPs and write about there are. 
- 3 - What could a hacker do inside this network?
- 4 - What do you think about this event behavior? What could've happened here? Is it True or False?
-```
-```sh
-C - Incident Response
-    1 - What do you understand by Incident Response?
-    2 - Which are the Incident Response phases?
-    3 - What do you understand by CSIRT (Computer Security Incident Response Team)?
-    4 - Which are the differeces between personal data and sensitive data?
-```
-GOOD LUCKY :)
+A - Abra o arquivo json Archive1 e analise:  Falso - Positivo
+
+ 1 - Encontre a família de amostras maliciosas.
+<br>
+ Resposta: PassShow
+
+
+ 2 - Encontre o nome do host:
+<br>
+ Resposta: crdcnb121
+
+
+ 3 - Encontre o nome de usuário:
+<br>
+ Resposta: ViniciusValerio
+ 
+
+ 4 - Encontre a data (mm/dd/year). 
+<br>
+ Resposta: 2024-03-07    
+ 
+
+ 5 - O que você deve fazer para realizar a contenção?
+<br>
+ Resposta: Como a detecção foi marcada como "Prevented", a contenção já foi realizada com sucesso neste caso. 
+
+
+ 6 - O que você acha do comportamento desse evento? Isso e verdadeiro ou falso?
+<br>
+ Resposta: comportamento do evento parece verdadeiro, pois mostra a detecção e prevenção de um software potencialmente indesejado.
+
+
+ 7 - Quais são os hashes de evidências do arquivo?
+<br> 
+Resposta:
+• SHA1: 73f8e5c17b49b9f2703fed59cc2be77239e904f7
+• SHA256: c41216eee9756a1dcc546df4fe97defc05513eed64ce6ac05f1501b50e6f96cc
+
+
+B - Abra o arquivo json Archive2 e analise: Falso - Falso 
+
+
+1 - Encontre o usuário envolvido neste evento.
+<br>
+Resposta: User: andre.oliveira@crdc.com.br
+
+
+
+ 2 - Encontre todos os IPs e escreva sobre eles.
+<br>
+Resposta: Ips:  168.196.40.82
+         189.57.104.170
+         200.170.138.149
+
+
+3 – O que um hacker poderia fazer dentro desta rede?
+<br>
+Resposta: O Hacker poderia utilizar o acesso para realizar diversos tipos de ataques cybernéticos, Violar politícas e padrões de segurança, escalar previlêngios até instalar softwares maliciosos que podem comprometer toda a operação.
+
+
+4 - O que você acha do comportamento desse evento? O que poderia ter acontecido aqui? Isso e verdadeiro ou falso?
+<br>
+Resposta: O comportamento do evento parece verdadeiro, pois mostra a detecção de um usuário credenciado porém em outra localidade com alguns ip's divergentes 
+
+C - Resposta a Incidentes
+
+
+1 - O que você entende por Resposta a Incidentes?
+<br>
+Resposta:  É o processo que descreve como uma organização deverá lidar com um incidente de segurança seja ele: 
+    *  Um ataque Cybernético 
+    *  Uma violação de dados 
+    *  A presença de um software malicioso como um vírus  
+    
+
+    
+2 - Quais são as fases de Resposta a Incidentes?
+<br>
+Respoosta:
+     * Preparação
+     * Detecção e Análise 
+     * Contenção 
+     * Investigação 
+     * Comunicação   
+
+
+
+3 - O que você entende por CSIRT (Computer Security Incident Response Team)? 
+<br>
+Resposta: É uma equipe responsável por lidar com incidentes de segurança cibernética em uma organização. Eles são encarregados de detectar, analisar e responder a ameaças de segurança, além de coordenar a resposta e recuperação após um incidente. 
+
+
+4- Quais as diferenças entre dados pessoais e dados sensíveis?
+<br>
+Resposta: Dados pessoais referem-se a informações que identificam ou podem identificar uma pessoa específica. Isso pode incluir coisas como nome, endereço, número de telefone, endereço de e-mail, número de identificação, etc.
+Já os dados sensíveis são um subconjunto de dados pessoais que são considerados particularmente sensíveis ou privados.    Isso pode incluir informações como origem étnica ou racial, opiniões políticas, crenças religiosas, saúde física ou mental, informações biométricas, histórico criminal, etc.
+
+Em resumo, enquanto dados pessoais identificam uma pessoa, dados sensíveis são informações especialmente confidenciais ou íntimas sobre essa pessoa.
+
+<br>
+Boa sorte  :)
+<br>
+Valeu :)
+ 
